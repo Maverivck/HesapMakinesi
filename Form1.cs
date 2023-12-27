@@ -8,24 +8,23 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace gorselProgram
+namespace Calculator
 {
     public partial class Form1 : Form
     {
-        int sayi1,sayi2;
-        string islem = string.Empty;
+        int sayi1, sayi2;
+        String islem = string.Empty;
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void Rakam(object sender, EventArgs e)
+        private void islemler(object sender, EventArgs e)
         {
-
-           Button btn = (Button)sender;
-            textBox1.Text += btn.Text;
-
-            
+            Button btn = (Button)sender;
+            islem += btn.Text;
+            sayi1 = Convert.ToInt32(textBox1.Text);
+            textBox1.Clear();
         }
 
         private void button11_Click(object sender, EventArgs e)
@@ -33,27 +32,17 @@ namespace gorselProgram
             textBox1.Clear();
             sayi1 = 0;
             sayi2 = 0;
-            string islem = string.Empty;
-            
-        }
-
-        private void islemler(object sender, EventArgs e)
-        {
-           Button btn = (Button)sender;
-            islem = btn.Text;
-            sayi1 = Convert.ToInt32(textBox1.Text);
-            textBox1.Clear();
-            
+            islem = string.Empty;
         }
 
         private void esittir(object sender, EventArgs e)
         {
             sayi2 = Convert.ToInt32(textBox1.Text);
-                
-                switch(islem)
+
+            switch(islem)
             {
                 case "+":
-                    textBox1.Text = (sayi1 + sayi2).ToString();
+                    textBox1.Text = (sayi1+sayi2).ToString();
                     break;
                 case "-":
                     textBox1.Text = (sayi1 - sayi2).ToString();
@@ -67,7 +56,12 @@ namespace gorselProgram
                 default:
                     break;
             }
-           
+        }
+
+        private void rakamlar(object sender, EventArgs e)
+        {
+            Button btn = (Button)sender;
+            textBox1.Text += btn.Text;
         }
     }
 }

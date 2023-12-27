@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DF1981F2-050E-4CC0-BD9F-2382595E053D}</ProjectGuid>
+    <ProjectGuid>{F1BF3E88-9ACE-49B1-AE6E-8604648B6B7A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>gorselProgram</RootNamespace>
-    <AssemblyName>gorselProgram</AssemblyName>
+    <RootNamespace>Calculator</RootNamespace>
+    <AssemblyName>Calculator</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

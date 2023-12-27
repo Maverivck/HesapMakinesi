@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace gorselProgram.Properties
+namespace Calculator.Properties
 {
 
 
