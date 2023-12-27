@@ -1,0 +1,10 @@
+C:\Users\Kerem\source\repos\gorselProgram\gorselProgram\bin\Debug\gorselProgram.exe.config
+C:\Users\Kerem\source\repos\gorselProgram\gorselProgram\bin\Debug\gorselProgram.exe
+C:\Users\Kerem\source\repos\gorselProgram\gorselProgram\bin\Debug\gorselProgram.pdb
+C:\Users\Kerem\source\repos\gorselProgram\gorselProgram\obj\Debug\gorselProgram.csproj.AssemblyReference.cache
+C:\Users\Kerem\source\repos\gorselProgram\gorselProgram\obj\Debug\gorselProgram.Form1.resources
+C:\Users\Kerem\source\repos\gorselProgram\gorselProgram\obj\Debug\gorselProgram.Properties.Resources.resources
+C:\Users\Kerem\source\repos\gorselProgram\gorselProgram\obj\Debug\gorselProgram.csproj.GenerateResource.cache
+C:\Users\Kerem\source\repos\gorselProgram\gorselProgram\obj\Debug\gorselProgram.csproj.CoreCompileInputs.cache
+C:\Users\Kerem\source\repos\gorselProgram\gorselProgram\obj\Debug\gorselProgram.exe
+C:\Users\Kerem\source\repos\gorselProgram\gorselProgram\obj\Debug\gorselProgram.pdb
